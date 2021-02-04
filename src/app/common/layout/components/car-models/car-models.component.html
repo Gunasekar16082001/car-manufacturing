@@ -1,0 +1,33 @@
+<div class="cars">
+    <!-- next-set-starts -->
+
+    <section class="section-2 container-fluid p-0">
+        <div class="cover">
+            <div class="overlay"></div>
+            <div class="content text-center">
+                <h1>Ferrari-Car-Models </h1>
+                <p>
+                    “Racing is a great mania to which one must sacrifice everything, without reticence, without hesitation.”                </p>
+            </div>
+        </div>
+    </section>
+    <!-- next-set-ends-->
+
+    <div class="container">
+        <div class="row" style="padding: 30px ;">
+    <div class="card"  *ngFor="let card of listOfCards">
+        <div class="slide-img">
+        <img class="card-img-top" src="{{card?.imageScr}}" alt="" />
+        <div class="overlay">
+            <a href="#" class="buy-btn">VIEW CAR</a>
+        </div>
+          </div>
+        <div class="card-body">
+          <p class="card-text text-center" >{{card?.title}}</p>
+        </div>
+      </div>
+    </div> 
+</div>
+
+    <app-footer></app-footer>
+</div>

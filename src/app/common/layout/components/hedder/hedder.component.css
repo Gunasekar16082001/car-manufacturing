@@ -1,0 +1,54 @@
+header
+ {
+   
+  overflow-x: hidden;
+}
+
+header {
+   display: flex;
+  background: linear-gradient(45deg, rgba(252, 252, 252, 0.6) 5%, #00060e 100%);
+}
+
+.container {
+    position: fixed;
+    display: flex;
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+  font-size: 18px;
+  color: black;
+}
+
+header .nav-link:hover {
+  color: rgb(19, 18, 18);
+}
+.navbar-toggler{
+  color: black;
+}
+
+
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+}
+
+  
+
+
+
